@@ -2,7 +2,7 @@
 
 Fetch URL's from google dorks
 
-#Installation:
+# Installation:
 
 Chrome->
 Download the repo and go to chrome://extensions/ and enable developer mode and click on 'Load Unpacked' and choose the extension folder.
