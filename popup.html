@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://www.virtuosoft.eu/code/bootstrap-duallistbox/bootstrap-duallistbox/v3.0.2/bootstrap-duallistbox.css">
+
+<div class="container">
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+		  <div class="form-group">
+			<label for="text">Domain:</label>
+			<input type="text" class="form-control" placeholder="Enter Domain" id="txtBlacklst">
+		  </div>
+		  <button class="btn btn-primary" id="addBlacklst" >Add</button>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <div class="row" style="margin-top: 40px;">
+    <div class="col">
+		<button class="btn btn-success float-right" id="clr" style="margin-left:5px;">Clear</button>
+      <button class="btn btn-success float-right" id="run">Running</button>
+      <h2> GDork </h2>
+      <p>Author: <a href="https://twitter.com/EnesSaltk7">Enes Saltik</a>. If you want to support, DM me :)</p>
+      <hr/>
+    </div>
+  </div>
+  <div class="row" style="margin-bottom: 40px;">
+    <div class="col">
+      <form id="demoform">
+        <textarea id="links" style="width:500px;height:250px"></textarea>
+        <br><br>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
